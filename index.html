@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MY WEBSITE X 12</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="overlay"></div>
+    <div class="container">
+      <h1>مرحباً، أنا <span class="highlight">عمر</span></h1>
+      <p>مطور واجهات وتجارب رقمية عصرية</p>
+      <a href="#contact" class="btn">تواصل معي</a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#about">من أنا</a></li>
+        <li><a href="#projects">أعمالي</a></li>
+        <li><a href="#contact">تواصل</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about" class="section fade-in">
+    <h2>من أنا</h2>
+    <p>أنا عمر، متخصص في تطوير المواقع بتصميمات تفاعلية ومبتكرة. أستخدم أحدث تقنيات الويب مثل HTML5، CSS3، وJavaScript لبناء تجارب مستخدم جذابة وفعالة.</p>
+  </section>
+
+  <section id="projects" class="section fade-in">
+    <h2>بعض أعمالي</h2>
+    <div class="projects-grid">
+      <div class="card">
+        <h3>موقع شركة ناشئة</h3>
+        <p>تصميم موقع متجاوب مع لوحة تحكم.</p>
+      </div>
+      <div class="card">
+        <h3>تطبيق متجر إلكتروني</h3>
+        <p>واجهة مستخدم احترافية وتفاعل سريع.</p>
+      </div>
+      <div class="card">
+        <h3>مدونة تقنية</h3>
+        <p>نظام كتابة وتصفح سهل وبسيط.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section fade-in">
+    <h2>تواصل معي</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="الاسم الكامل" required />
+      <input type="email" placeholder="البريد الإلكتروني" required />
+      <textarea placeholder="اكتب رسالتك هنا..." required></textarea>
+      <button type="submit" class="btn">إرسال</button>
+      <p id="formMessage"></p>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 OMAR Magdy-جميع الحقوق محفوظة لدى</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
